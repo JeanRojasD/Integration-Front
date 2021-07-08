@@ -5,10 +5,6 @@ import api from './api';
 
 class App extends Component {
 
-  state = {
-    test: [],
-  }
-
   async componentDidMount() {
 
     const response = await api.get('');
